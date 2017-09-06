@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import com.github.yanjiabin.extendsringprogressbarlib.RingProgressBar;
 
+
 public class MainActivity extends AppCompatActivity {
     private RingProgressBar progressBar1;
     private RingProgressBar progressBar2;
