@@ -1,5 +1,5 @@
 # Screenshot
 
-![](https://github.com/yanjiabin/ExtendsRingPrigressBar/blob/master/pic/gif.gif)
+![](https://github.com/yanjiabin/ExtendsRingPrigressBar/blob/master/pic/screen.gif)
 
 ## step1 
