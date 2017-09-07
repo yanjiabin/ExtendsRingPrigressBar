@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
         progressBar1 = (RingProgressBar) findViewById(R.id.progress_bar_1);
 
-        progressBar2 = (RingProgressBar) findViewById(R.id.progress_bar_2);
         progressBar2.setProgress(1);
         handler.post(runnable);
+        progressBar2 = (RingProgressBar) findViewById(R.id.progress_bar_2);
         progressBar2.setOnProgressListener(new RingProgressBar.OnProgressListener() {
 
             @Override
@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     Runnable runnable = new Runnable() {
         @Override
         public void run() {
