@@ -4,9 +4,18 @@
 
 ## import
 ```java
-   step1.
+   step1.  Add it in your root build.gradle at the end of repositories:
+            allprojects {
+               repositories {
+                  ...
+                  maven { url 'https://jitpack.io' }
+               }
+            }
    
-   step2.
+   step2.  Add the dependency
+          dependencies {
+	        compile 'com.github.yanjiabin:ExtendsRingPrigressBar:1.1.1'
+	       }
   
 ```
 
