@@ -40,7 +40,7 @@
             android:layout_alignParentBottom="true"
             app:max="100"
             app:ringColor="@android:color/darker_gray"
-            app:ringProgressColor="@color/colorPrimary"
+            app:ringProgressColor="#f00"
             app:ringWidth="3dp"
             app:style="STROKE"
             app:textColor="@color/colorPrimary"
