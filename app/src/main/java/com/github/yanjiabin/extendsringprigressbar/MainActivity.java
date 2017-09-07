@@ -18,10 +18,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         progressBar1 = (RingProgressBar) findViewById(R.id.progress_bar_1);
-
+        progressBar2 = (RingProgressBar) findViewById(R.id.progress_bar_2);
         progressBar2.setProgress(1);
         handler.post(runnable);
         progressBar2 = (RingProgressBar) findViewById(R.id.progress_bar_2);
